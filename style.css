@@ -1,0 +1,370 @@
+/* Other stylings area*/
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(34,169,195);
+    background: linear-gradient(99deg, #2b2525 33%, #aa1919 69%);
+    color: black;
+}
+/* Other stylings area*/
+
+/* Sign-in page area */
+#div-login{
+    background-color: white;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+h1{
+    padding-top: 30px;
+}
+#email-login{
+    outline: none;
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+#password-login{
+    outline: none;
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+#but-login{
+    margin-top: 40px;
+    width: 250px;
+    height: 45px;
+    border: transparent;
+    border-radius: 10px;
+    background: rgb(34,169,195);
+    background: linear-gradient(99deg, #2b2525 33%, #aa1919 69%);
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px 50px;
+}
+
+#anc-login{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* Sign-in page area */
+
+/* Responsive stylings */
+@media (max-width:850px){
+    #div-login{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        height: 600px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    h1{
+        padding-top: 30px;
+    }
+    #email-login{
+        outline: none;
+        margin-top: 50px;
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+}
+@media (max-width:400px){
+    #div-login{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        height: 550px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    h1{
+        padding-top: 30px;
+    }
+    #email-login{
+        outline: none;
+        margin-top: 50px;
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #password-login{
+        outline: none;
+        margin-top: 50px;
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #but-login{
+        margin-top: 40px;
+        width: 200px;
+        height: 45px;
+        border: transparent;
+        border-radius: 10px;
+        background: rgb(34,169,195);
+        background: linear-gradient(99deg, #2b2525 33%, #aa1919 69%);
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+        padding: 10px 50px;
+}
+}
+
+@media (max-width:356px){
+    #div-login{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        height: 550px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    h1{
+        padding-top: 30px;
+    }
+    #email-login{
+        outline: none;
+        margin-top: 50px;
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #password-login{
+        outline: none;
+        margin-top: 50px;
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #but-login{
+        margin-top: 40px;
+        width: 200px;
+        height: 45px;
+        border: transparent;
+        border-radius: 10px;
+        background: rgb(34,169,195);
+        background: linear-gradient(99deg, #2b2525 33%, #aa1919 69%);
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+        padding: 10px 50px;
+}
+}
+/* Responsive stylings area*/
+
+
+/* Register page area*/
+#register-user{
+    outline: none;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+#register-email{
+    outline: none;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+#register-password{
+    outline: none;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+#register-again-password{
+    outline: none;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+
+#register-btn{
+    margin-top: 30px;
+    width: 250px;
+    height: 45px;
+    border: transparent;
+    border-radius: 10px;
+    background: rgb(34,169,195);
+    background: linear-gradient(99deg, #2b2525 33%, #aa1919 69%);
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px 50px;
+}
+
+#anc-register{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* Responsive stylings area*/
+
+/* Responsive stylings area */
+@media (max-width:440px){
+    #div-register{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        height: 600px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    h1{
+        padding-top: 30px;
+    }
+    #register-user{
+        outline: none;
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-email{
+        outline: none;
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-password{
+        outline: none;
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-again-password{
+        outline: none;
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-btn{
+        width: 200px;
+        height: 45px;
+        border: transparent;
+        border-radius: 10px;
+        background: rgb(34,169,195);
+        background: linear-gradient(99deg, #2b2525 33%, #aa1919 69%);
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+        padding: 10px 50px;
+    }
+    #anc-register{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+}
+
+
+@media (max-width:355px){
+    #div-register{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        height: 550px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    h1{
+        padding-top: 30px;
+    }
+    #register-user{
+        outline: none;
+        width: 180px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-email{
+        outline: none;
+        width: 180px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-password{
+        outline: none;
+        width: 180px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-again-password{
+        outline: none;
+        width: 180px;
+        height: 50px;
+        padding: 10px;
+        border: transparent;
+        border-bottom: 2px solid black;
+    }
+    #register-btn{
+        width: 170px;
+        height: 45px;
+        border: transparent;
+        border-radius: 10px;
+        background: rgb(34,169,195);
+        background: linear-gradient(99deg, #2b2525 33%, #aa1919 69%);
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+        padding: 10px 50px;
+    }
+    #anc-register{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+}
+/* Responsive stylings area */

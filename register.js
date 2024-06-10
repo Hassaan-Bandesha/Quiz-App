@@ -13,6 +13,7 @@ const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const passwordRegex = /^(?=.*[!@#$%^&*(),.?":{}|<>])[A-Za-z\d!@#$%^&*(),.?":{}|<>]{8,}$/;
 // Regex Area
 
+// Functionalities area
 function validateName(name){
     return nameRegex.test(name);
 }
@@ -29,7 +30,6 @@ function validateAgainPassword(password,againPassword){
     return password === againPassword
 }
 
-
 function addUserData(){
     let usersData = JSON.parse(localStorage.getItem('users')) || []
 
@@ -41,7 +41,6 @@ function addUserData(){
     })
     localStorage.setItem('users',JSON.stringify(usersData))
 }
-
 
 let errors = []
 
@@ -80,3 +79,4 @@ form.addEventListener('submit', function(event){
         window.location ='index.html'
     }
 });
+// Functionalities area
